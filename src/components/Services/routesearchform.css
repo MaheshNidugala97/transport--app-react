@@ -1,0 +1,241 @@
+.routeform-section {
+    position: relative;
+    width: 100%;
+    height: 23rem;
+    display: grid;
+    background-color: white;
+}
+
+.routeform-container {
+    display: flex;
+    width: 95%;
+    max-width: 185rem;
+    margin: 4rem 5rem;
+    height: 12rem;
+    margin-top: 10rem;
+    background-color: rgba(62.00000010430813, 7.000000057742, 99.00000169873238, 1);
+    border-radius: 18px;
+    box-shadow: 0px 0px 12px 1px rgba(194, 17, 161, 0.8);
+    position: relative;
+}
+
+
+.container2 {
+    display: flex;
+}
+
+.col-2,
+.col-3 {
+  flex: 1 1 25%;
+  max-width: 19%;
+  margin-bottom: 1rem;
+}
+
+.input-field {
+    padding-left: 35px;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 5rem;
+    border-radius: 18px;
+  }
+  
+
+.row-form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: wrap;
+    align-items: baseline;
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 45%;
+
+}
+.locFrom1 {
+  padding-left: 35px;
+  background: url('../Assets/loc.png') 10px center no-repeat;
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 5rem;
+  border-radius: 18px;
+}
+
+.divlocFrom1 {
+    display: flex;
+    width: 14%;
+    height: 5rem;
+}
+
+
+
+.locTo1 {
+    display: flex;
+    padding-left: 35px;
+    background: url('../Assets/loc.png') 10px center no-repeat;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 5rem;
+    border-radius: 18px;
+    flex-direction: column;
+}
+
+.datepick {
+    padding-left: 35px;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 5rem;
+    border-radius: 18px;
+    flex-direction: column;
+    display:flex;
+} 
+
+.react-datepicker-wrapper {
+    display: inline-block;
+    padding: 0;
+    border: 0;
+    width: -webkit-fill-available;
+}
+
+.personcount {
+    padding-left: 35px;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 5rem;
+    border-radius: 18px;
+    display: flex;  
+    flex-direction: column;
+
+}   
+.btn-route {
+    background-color: #C211A1;
+    color: white;
+    width:100%;
+    border-radius: 18px;
+}
+
+@media (max-width: 576px) {
+    .routeform-section {
+        position: relative;
+        width: 100%;
+        height: 33rem;
+        display: grid;
+        background-color: white;
+    }
+
+    .routeform-container {
+        flex-direction: column;
+        max-width: 86%;
+        margin: 0 auto;
+        margin-top: 3rem;
+        height: 32rem;
+
+    }
+    .col-2,
+    .col-3 {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+    .routeform-section {
+        position: relative;
+        width: 100%;
+        height: 24rem;
+        display: grid;
+        background-color: white;
+    }
+
+    .routeform-container {
+        flex-direction: column;
+        max-width: 100%;
+        margin: 0 auto;
+        margin-top: 3rem;
+        height: 21rem;
+    }
+
+    .col-2,
+  .col-3 {
+    flex: 1 1 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .routeform-section {
+        position: relative;
+        width: 100%;
+        height: 23rem;
+        display: grid;
+        background-color: white;
+    }
+
+    .routeform-container {
+        flex-direction: column;
+        max-width: 100%;
+        margin: 0 auto;
+        margin-top: 4rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .routeform-section {
+        position: relative;
+        width: 100%;
+        height: 23rem;
+        display: grid;
+        background-color: white;
+    }
+
+    .routeform-container {
+        flex-direction: column;
+        max-width: 93%;
+        margin: 0 auto;
+        margin-top: 5rem;
+    
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1276px){
+    .routeform-section {
+        position: relative;
+        width: 100%;
+        height: 20rem;
+        display: grid;
+        background-color: white;
+    }
+
+    .routeform-container {
+        flex-direction: column;
+        max-width: 94%;
+        margin: 0 auto;
+        margin-top: 6rem;
+        height: 10rem;
+    }
+}
+
+@media (min-width: 1277px) {
+    .routeform-section {
+        position: relative;
+        width: 100%;
+        height: 20rem;
+        display: grid;
+        background-color: white;
+    }
+
+    .routeform-container {
+        flex-direction: column;
+        max-width: 94%;
+        margin: 0 auto;
+        margin-top: 6rem;
+        height: 10rem;
+    }
+}
+
+@media (max-width: 576px) {
+.col-2, .col-3 {
+    max-width: 82%;
+    flex: 1 1 100%;
+}
+
+}

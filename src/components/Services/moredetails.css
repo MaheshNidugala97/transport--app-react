@@ -1,0 +1,558 @@
+.more-section {
+    position: relative;
+    background-color: #310159;
+    display: flex;
+}
+
+
+.row-1{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    width: 60rem;
+    height: 7rem;
+    justify-items: stretch;
+}
+.More-details-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 60rem;
+    height: 55rem;
+    margin-top: 7rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #310159;
+    box-shadow: 0px 0px 14px rgba(255, 255, 255, 0.80);
+    border-radius: 18px;
+    margin-bottom: 25px;
+
+}
+.tramicon{
+    margin: 2.5rem 3.5rem;
+}
+.leftTopHeading{
+    margin-top: 2.5rem;
+    margin-left: -2rem;
+    color: #ffffff;
+    font-size: large;
+}
+.price{
+    margin-left: 36rem;
+    margin-top: 1.5rem;
+    color: #C211A1;
+}
+.miniContainer{
+    display: flex;
+    width: 60rem;
+    height: 37.5rem;
+}
+.vertical-line-with-horizontal-lines {
+    display: flex;
+    align-items: center;
+    height: 30rem;
+  }
+  
+  .vertical-line {
+    border-left: 0.1px solid white;
+    height: 132%;
+    margin-left: 5.7rem;
+    margin-top: 4.1rem;
+  }
+  
+  .horizontal-lines-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 1rem;
+    height: 40rem;
+    margin-top: 13.8rem;
+  }
+  
+  .horizontal-line {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5rem;
+    border-bottom: 1px solid white;
+    width: 3rem;
+    margin-left: -1rem;
+    margin-top: 0.2rem;
+  }
+  
+  .circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #C211A1;
+    margin-left: 2.5rem;
+    position:absolute;
+  }
+ .fullJourneyDetails{
+    display: flex;
+    margin-top: 1rem;
+    width: 29rem;
+    height: 2rem;
+    align-items: center;
+    padding-left: 1rem;
+ } 
+ .allP{
+    color: #ffffff;
+    font-size: 20px; 
+    font-family: Poppins; 
+    font-weight: 500;
+ }
+.dayDetails{
+    height: 3rem;
+    display: flex;
+    margin-top: 8.8rem;
+    width: 25rem;
+    margin-left: -29rem;
+}
+.firstTramDetails{
+    display: flex;
+    height: 8rem;
+    width: 44rem;
+    margin-top: 15.5rem;
+    margin-left: -26.2rem;
+    border: 0.1px solid #C211A1;
+    border-radius: 18px;
+}
+.tramNameAndLogo{
+    display: flex;
+    flex-wrap: wrap;
+    border-right: 0.1px solid white;
+    width: 15rem;
+}
+.frequency{
+    display: flex;
+    border-right: 0.1px solid white;
+}
+.routeDetails{
+    flex-grow: 3;
+    display: flex;
+}
+.tramicon3{
+    padding-left: 4rem;
+    padding-top: 1rem;
+}
+.firstTramNameAndNumber{
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+}
+.tramName{
+    color: #ffffff;
+    display: flex;
+    height: 2rem;
+    width: 14rem;
+    align-items: center;
+    margin-top: 0rem;
+    margin-left: 2rem;
+}
+.clock{
+    display: flex;
+    margin-left: 1.3rem;
+    margin-right: 1rem;
+    margin-top: 2.5rem;
+    height: 1rem;
+}
+.frequently{
+    display: flex;
+    color: #ffffff;
+    margin-left: -1.5rem;
+    margin-right: 0rem;
+    margin-top: 1.5rem;
+}
+
+.timeline {
+    display: flex;
+    align-items: center;
+    margin-left: 1.2rem;
+    margin-top: 1rem;
+    height: 3rem;
+  }
+  
+  .horizontal-line-journey {
+    border: none;
+    border-top: 0.1px solid white;
+    margin: 0 10px;
+    width: 2rem;
+  }
+  
+  .timeline span {
+    margin: 0 10px;
+    color: #ffffff;
+  }
+  .startStation{
+    color: #ffffffc9;
+    display: flex;
+    flex-wrap: wrap;
+    height: 2rem;
+    width: 7rem;
+    align-items: center;
+    margin-top: 3.5rem;
+    margin-left: -20.6rem;
+}
+.mid1Station{
+    color: #ffffffc9;
+    display: flex;
+    flex-wrap: wrap;
+    height: 2rem;
+    width: 7rem;
+    align-items: center;
+    margin-top: 3.5rem;
+    margin-left: 7.4rem;
+}
+.change{
+    align-items: center;
+    display: flex;
+    height: 5rem;
+    width: 21rem;
+    margin-left: -43rem;
+    margin-top: 25.5rem;
+}
+.transferTime {
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 19rem;
+    margin-left: 1rem;
+    margin-top: 18rem;
+  }
+  
+  .transferTime span {
+    color: #ffffff;
+    margin: 2rem 1rem;
+    font-size: 18px; /* Adjust the font size as needed */
+  }
+
+
+.secondTramDetails{
+    display: flex;
+    height: 8rem;
+    width: 44rem;
+    margin-top: 33rem;
+    margin-left: -42rem;
+    border: 0.1px solid #C211A1;
+    border-radius: 18px;
+}
+.tramNameAndLogo2{
+    display: flex;
+    flex-wrap: wrap;
+    border-right: 0.1px solid white;
+    width: 15rem;
+
+}
+.frequency2{
+    display: flex;
+    border-right: 0.1px solid white;
+}
+.furtherRouteDetails{
+    flex-grow: 3;
+    display: flex;
+}
+.tramicon2{
+    padding-left: 4rem;
+    padding-top: 1rem;
+}
+.firstTramNameAndNumber{
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+}
+.tramName2{
+    color: #ffffff;
+    display: flex;
+    height: 2rem;
+    width: 14rem;
+    align-items: center;
+    margin-top: 0rem;
+    margin-left: 2rem;
+}
+.clock2{
+    display: flex;
+    margin-left: 1.3rem;
+    margin-right: 1rem;
+    margin-top: 2.5rem;
+    height: 1rem;
+}
+.frequently2{
+    display: flex;
+    color: #ffffff;
+    margin-left: -1.5rem;
+    margin-right: 0rem;
+    margin-top: 1.5rem;
+}
+
+.timeline2 {
+    display: flex;
+    align-items: center;
+    margin-left: 1.2rem;
+    margin-top: 1rem;
+    height: 3rem;
+  }
+  
+  .horizontal-line-journey2 {
+    border: none;
+    border-top: 0.1px solid white;
+    margin: 0 10px;
+    width: 2rem;
+  }
+  
+  .timeline2 span {
+    margin: 0 10px;
+    color: #ffffff;
+  }
+  .startStation2{
+    color: #ffffffc9;
+    display: flex;
+    flex-wrap: wrap;
+    height: 2rem;
+    width: 7rem;
+    align-items: center;
+    margin-top: 3.5rem;
+    margin-left: -20.6rem;
+}
+.mid1Station2{
+    color: #ffffffc9;
+    display: flex;
+    flex-wrap: wrap;
+    height: 2rem;
+    width: 7rem;
+    align-items: center;
+    margin-top: 3.5rem;
+    margin-left: 7.4rem;
+}
+  
+  .back-button,
+  .login-pay-button {
+    font-size: 16px;
+    border: none;
+    border-radius: 18px;
+    background-color: #C211A1;
+    color: white;
+    margin-top: 49.3rem;
+    margin-left: -82rem;
+    width: 15rem;
+  }
+  
+  .back-button {
+    background-color: #f1f1f1;
+    color: #C211A1;
+    margin-top: 7rem;
+    margin-left: 12rem;
+    width: 15rem;
+  }
+  
+  .login-pay-button {
+    background-color: #C211A1;
+    color: white;
+    margin-top: 51.3rem;
+    margin-left: -24rem;
+    width: 15rem;
+  }
+  
+
+
+
+
+
+
+@media (max-width: 769px) {
+    .row{
+        display: flex;
+        width: 20rem;
+        height: 7rem;
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 23rem;
+        height: 58rem;
+    }
+    .tramicon{
+        margin: 1.5rem 1rem;
+    }
+    .leftTopHeading{
+        margin-top: 1.5rem;
+        margin-left: 0rem;
+        width: 11rem;
+    }
+    .price{
+        margin-top: 0.7rem;
+        margin-left: 3.2rem;
+        width: 11rem;
+    }
+.miniContainer{
+    width: 23rem;
+    height: 90rem;
+}
+.horizontal-line {
+    margin-left: -1rem;
+    width: 2rem;
+}
+.vertical-line{
+    margin-left: 1.5rem;
+    margin-top: 4.1rem;
+}
+.circle{
+    margin-left: 1.5rem;
+}
+.allP{
+    font-size: 20px;
+    font-weight: 360;
+}
+.fullJourneyDetails{
+    width: 18rem;
+    height: 2rem;
+}
+.dayDetails{
+    margin-left: -18rem;
+    margin-top: 8rem;
+    width: 16rem;
+    height: 2rem;
+}
+.firstTramDetails{
+    flex-direction: column;
+    width: 18rem;
+    margin-top: 14.5rem;
+    margin-left: -19rem;
+    border: none;
+}
+.tramNameAndLogo{
+    border-right: none;
+    align-items: flex-start;    
+}
+.firstTramNameAndNumber{
+    margin-top: 1.7rem;
+    margin-left: 1rem;
+}
+.tramName{
+display: none;
+}
+.frequency{
+    border: none;
+    margin-top: -6rem;
+    margin-left: 15rem;
+}
+.clock{
+    margin-left: 1.5rem;
+}
+.frequently{
+margin-left: -3rem;
+width: 9rem;
+font-size: small;
+}
+.routeDetails{
+    margin-top: 3.5rem;
+}
+.timeline{
+    margin-left: 3rem;
+    margin-top: -1rem;
+}
+.timeline span{
+    width: 3.6rem;
+    margin-left: -2rem;
+}
+.horizontal-line-journey{
+    width: 3rem;
+    margin-right: 3rem;
+    margin-left: -0.5rem;
+}
+.startStation{
+    margin-left: -19.5rem;
+    margin-top: 1rem;
+}
+.mid1Station{
+    margin-left: 8rem;
+    margin-top: 1rem;
+}
+.change{
+    display: none;
+}
+.transferTime{
+    margin-left: -16rem;
+    margin-top: -33.7rem;
+}
+
+.secondTramDetails{
+    flex-direction: column;
+    width: 18rem;
+    margin-left: -21rem;
+    margin-top: 32rem;
+    border: none;
+}
+.tramNameAndLogo2{
+    border-right: none;
+    align-items: flex-start;    
+}
+.firstTramNameAndNumber{
+    margin-top: 1.7rem;
+    margin-left: 1rem;
+}
+.tramName2{
+display: none;
+}
+.frequency2{
+    border: none;
+    margin-top: -6rem;
+    margin-left: 15rem;
+}
+.clock2{
+    margin-left: 1.5rem;
+}
+.frequently2{
+margin-left: -3rem;
+width: 9rem;
+font-size: small;
+}
+.furtherRouteDetails{
+    margin-top: 3.5rem;
+}
+.timeline2{
+    margin-left: 3rem;
+    margin-top: -1rem;
+}
+.timeline2 span{
+    width: 3.6rem;
+    margin-left: -2rem;
+}
+.horizontal-line-journey2{
+    width: 3rem;
+    margin-right: 3rem;
+    margin-left: -0.5rem;
+}
+.startStation2{
+    margin-left: -19.5rem;
+    margin-top: 1rem;
+}
+.mid1Station2{
+    margin-left: 8rem;
+    margin-top: 1rem;
+}
+ 
+  .back-button {
+    background-color: #f1f1f1;
+    color: #C211A1;
+    margin-top: -45rem;
+    margin-left: 2rem;
+    width: 9rem;
+    height: 3rem;
+  }
+  
+  .login-pay-button {
+    background-color: #C211A1;
+    color: white;
+    margin-top: -45rem;
+    margin-left: 12rem;
+    width: 9rem;
+    height: 3rem;
+  }
+}

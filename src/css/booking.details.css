@@ -1,0 +1,399 @@
+.div_booking_details { 
+	overflow:hidden;
+	border:1px solid rgba(255, 255, 255, 1);
+}
+.div_booking_details { 
+	background-color:rgba(62.00000010430813, 7.000000057742, 99.00000169873238, 1);
+	width:366px;
+	height:100px;
+	border-top-left-radius:12px;
+	border-top-right-radius:12px;
+	border-bottom-left-radius:12px;
+	border-bottom-right-radius:12px;
+	position:absolute;
+	margin-left: 970px;
+	margin-top: 190px;
+}
+.span_date_from { 
+	color:rgba(255, 255, 255, 1);
+	width:202px;
+	height:11px;
+	font-family:Inter;
+	position:relative;
+	left:14px;
+	top:19px;
+	text-align:left;
+	font-size:14px;
+	letter-spacing:0;
+	font-weight: bolder;
+}
+
+.span_date_to{ 
+	color:rgba(255, 255, 255, 1);
+	width:202px;
+	height:11px;
+	position:relative;
+	left:50px;
+	top:19px;
+	text-align:left;
+	font-size:14px;
+	letter-spacing:0;
+	font-family:Inter;
+}
+
+.span_time_from { 
+	color:rgba(255, 255, 255, 1);
+	width:44px;
+	height:45px;
+	position:absolute;
+	left:14px;
+	top:41px;
+	text-align:left;
+	font-size:14px;
+	letter-spacing:0;
+	font-family:Inter;
+	opacity: 50%;
+}
+
+.span_time_to { 
+	color:rgba(255, 255, 255, 1);
+	width:44px;
+	height:45px;
+	position:absolute;
+	left:14px;
+	top:58px;
+	text-align:left;
+	font-size:14px;
+	letter-spacing:0;
+	font-family:Inter;
+	opacity: 50%;
+}
+
+.image_dest { 
+	width:8px;
+	height:29px;
+	position:absolute;
+	left:60px;
+	top:43px;
+	background-image:url(../images/dest.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.city_name_from { 
+	color:rgba(255, 255, 255, 1);
+	width:69px;
+	height:45px;
+	position:absolute;
+	left:79px;
+	top:41px;
+	text-align:left;
+	font-size:14px;
+	letter-spacing:0;
+	font-family:Inter;
+	opacity: 50%;
+}
+
+.city_name_to { 
+	color:rgba(255, 255, 255, 1);
+	width:69px;
+	height:45px;
+	position:absolute;
+	left:79px;
+	top:58px;
+	text-align:left;
+	font-size:14px;
+	letter-spacing:0;
+	font-family:Inter;
+	opacity: 50%;
+}
+
+.arrow_image_right { 
+	width:17px;
+	height:14px;
+	position:relative;
+	left:105px;
+	top :3px;
+	background-image:url(../images/image_arrow_right.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.div_city{
+	position: absolute;
+	top: 7px;
+}
+
+.div_adults { 
+	overflow:hidden;
+}
+.div_adults { 
+	width:384px;
+	height:37px;
+	position:absolute;
+	margin-left: 970px;
+	margin-top: 300px;
+}
+.span_adult { 
+	color:rgba(255, 255, 255, 1);
+	width:364px;
+	height:17px;
+	position:absolute;
+	left:10px;
+	top:10px;
+	font-family:Inter;
+	text-align:left;
+	font-size:14px;
+	letter-spacing:0;
+	opacity: 50%;
+}
+
+.span_euro { 
+	color:rgba(255, 255, 255, 1);
+	width:364px;
+	height:17px;
+	position:absolute;
+	top:10px;
+	font-family:Inter;
+	text-align:right;
+	font-size:14px;
+	letter-spacing:0;
+	font-weight: 700;
+}
+.horizantal_line{
+	width:365px;
+	height:17px;
+	position:absolute;	
+	margin-top: 35px;
+	margin-left: 3px;
+}
+
+/*  total section */
+
+.div_total { 
+	overflow:hidden;
+}
+.div_total { 
+	width:384px;
+	height:37px;
+	position:absolute;
+	margin-left: 970px;
+	margin-top: 340px;
+}
+.span_total { 
+	color:rgba(255, 255, 255, 1);
+	width:364px;
+	height:17px;
+	position:absolute;
+	left:10px;
+	top:5px;
+	font-family:Inter;
+	text-align:left;
+	font-size:20px;
+	letter-spacing:0;
+	font-weight: 700;
+}
+
+.span_total_euro { 
+	color:rgba(255, 255, 255, 1);
+	width:364px;
+	height:17px;
+	position:absolute;
+	top:5px;
+	font-family:Inter;
+	text-align:right;
+	font-size:20px;
+	letter-spacing:0;
+	font-weight: 700;
+}
+
+/* Voucher section */
+
+.div_voucher { 
+	overflow:hidden;
+}
+.div_voucher { 
+	width:170px;
+	height: 25px;
+	position:absolute;
+	margin-left: 1000px;
+	margin-top: 380px;
+	border-radius: 4px;
+}
+
+.voucher_image{
+	width:28px;
+	height:20px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	background-image:url(../images/voucher_image.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.span_redeem_voucher{
+	color:rgba(255, 255, 255, 1);
+	width:202px;
+	height:11px;
+	font-family:Inter;
+	position:relative;
+	left:32px;
+	top: 2px;
+	text-align:left;
+	font-size:14px;
+	letter-spacing:0;
+	opacity: 50%;
+}
+
+.voucher_down_arrow_image{
+	width:15px;
+	height:15px;
+	position:absolute;
+	left:145px;
+	top:4px;
+	background-image:url(../images/down_arrow_icon.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+/* confirm booking button */
+
+
+.button { 
+		padding: 15px 25px;
+		width: 370px;
+		height: 45px;
+		font-size: 16px;
+		font-weight: bold;
+		text-align: center;
+		cursor: pointer;
+		outline: none;
+		color: #fff;
+		background-color: #C211A1;
+		border: none;
+		border-radius: 6px;
+		position: absolute;
+		margin-left: 975px;
+		margin-top: 420px;
+	  
+}
+
+.button:hover {background-color: #C537AA}
+
+.button:active {
+  background-color: #C537AA;
+  transform: translateY(1px);
+}
+
+
+@media (max-width: 576px) {
+
+	/* CSS rules for extra small devices */
+	.div_booking_details {
+        margin-left: 50px;
+        margin-top: 1220px;
+        width: 370px;
+
+      }
+
+      .div_adults {
+        margin-left: 50px;
+        margin-top: 1330px;
+        width: 370px;
+      }
+
+      .horizantal_line {
+        width: 370px;
+      }
+
+      .span_euro {
+        left: 2px;
+      }
+
+      .div_total {
+        margin-left: 40px;
+        margin-top: 1370px;
+        width: 390px;
+      }
+
+      .span_total {
+        font-size: 17px;
+      }
+
+      .span_total_euro {
+        left: 18px;
+        font-size: 17px;
+      }
+
+      .div_voucher {
+        margin-left: 70px;
+        margin-top: 1410px;
+        width: 170px;
+      }
+
+      .button {
+        margin-left: 50px;
+        margin-top: 1450px;
+        width: 370px;
+        font-size: 15px;
+      }
+
+  
+}
+
+
+@media (min-width: 577px) and (max-width: 767px) {
+	/* CSS rules for small devices */
+	
+
+	.div_booking_details {
+        margin-left: 70px;
+        margin-top: 1220px;
+        width: 400px;
+
+      }
+
+      .div_adults {
+        margin-left: 70px;
+        margin-top: 1330px;
+        width: 400px;
+      }
+
+      .horizantal_line {
+        width: 400px;
+      }
+
+      .span_euro {
+        left: 30px;
+      }
+
+      .div_total {
+        margin-left: 70px;
+        margin-top: 1370px;
+        width: 400px;
+      }
+
+      .span_total {
+        font-size: 17px;
+      }
+
+      .span_total_euro {
+        left: 30px;
+        font-size: 17px;
+      }
+
+      .div_voucher {
+        margin-left: 90px;
+        margin-top: 1410px;
+        width: 170px;
+      }
+
+      .button {
+        margin-left: 70px;
+        margin-top: 1450px;
+        width: 400px;
+        font-size: 15px;
+      }
+
+  }

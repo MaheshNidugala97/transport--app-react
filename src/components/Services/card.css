@@ -1,0 +1,198 @@
+.card {
+    background-color: #350058;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .card h2 {
+    margin-bottom: 10px;
+  }
+  
+  .icon-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -6px;
+  }
+  
+  .icon-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .icon {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 5px;
+  }
+  
+  .icon-column span {
+    color: white;
+    font-size: 18px;
+    font-family: poppins;
+    font-weight: bold;
+  }
+  
+  .card-title {
+    color: white;
+  }
+  
+  .icon-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+  }
+  
+  .icon-box {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 18px;
+    box-shadow: 0 2px 4px;
+    background-color: #310159;
+  }
+  
+  .forward-slash {
+    margin: 0 8px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .icon-box:hover {
+    box-shadow: 0px 0px 14px rgba(255, 255, 255, 0.8);
+  }
+  
+  .card-content-wrapper {
+    height: 471px;
+    overflow-y: scroll;
+    scrollbar-color: transparent transparent;
+    /* Set the scrollbar color to transparent */
+    scrollbar-width: none;
+  }
+  
+  .card-content-wrapper::-webkit-scrollbar {
+    display: none;
+    /* Hide the scrollbar for webkit-based browsers (Chrome, Safari) */
+  }
+  
+  .ContainerofCard {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 88rem;
+    height: 23rem;
+    /* margin-top: 0rem; */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #310159;
+    box-shadow: 0px 0px 14px rgba(255, 255, 255, 0.8);
+    border-radius: 18px;
+  }
+  
+  .row1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 89rem;
+    height: 11rem;
+  }
+  
+  .tramiconservices {
+    margin: 2.5rem 3.5rem;
+  }
+  
+  .leftTopHeadingServices {
+    margin-top: 4.5rem;
+    margin-left: -2rem;
+    color: #ffffff;
+    font-size: large;
+  }
+  
+  .priceServices {
+    margin-top: 4rem;
+    width: 10rem;
+    color: #c211a1;
+    align-items: end;
+    /* display: flex; */
+    /* align-items: end; */
+    margin-left: 530px;
+}
+  
+  .Servicestimeline {
+    display: flex;
+    align-items: center;
+    margin-left: 7.2rem;
+    margin-top: 1rem;
+    height: 3rem;
+  }
+  
+  .horizontal-line-journey-services {
+    border: none;
+    border-top: 0.1px solid #ffffffd6;
+    margin: 0 10px;
+    width: 12rem;
+  }
+  
+  .Servicestimeline span {
+    margin: 4px 21px;
+    color: #ffffff;
+    font-size: large;
+  }
+  
+  .startStationServices {
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    height: 5rem;
+    width: 20rem;
+    align-items: center;
+    margin-top: 1.5rem;
+    margin-left: 5.4rem;
+    font-size: large;
+  }
+  
+  .changeInServices {
+    display: flex;
+    flex-wrap: wrap;
+    height: 5rem;
+    width: 7rem;
+    align-items: center;
+    margin-top: 13.5rem;
+    margin-left: -55.6rem;
+    font-size: medium;
+    color: rgba(255, 255, 255, 0.58);
+  }
+  
+  .mid1StationServices {
+    display: flex;
+    flex-wrap: wrap;
+    height: 5rem;
+    width: 15rem;
+    align-items: center;
+    margin-top: 16.5rem;
+    margin-left: -33.6rem;
+    font-size: large;
+    color: white;
+  }
+  
+  .more {
+    color: #ffffff;
+    background-color: #c211a1;
+    border-radius: 18px;
+    border: 0.5px solid #ffffff;
+    width: 15rem;
+    height: 5rem;
+    margin-left: -17rem;
+    margin-top: 16rem;
+    font-size: large;
+  }
+  
+  .card-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 19px;
+    margin-top: 18px;
+  }
+  

@@ -1,0 +1,63 @@
+.div_back { 
+	overflow:hidden;
+}
+.div_back { 
+	width:100%;
+	height:21px;
+	position:absolute;
+	left: 163px;
+	top:240px
+}
+.image_back_arrow { 
+	width:25px;
+	height:21px;
+	position:absolute;
+	background-image:url(../images/back-arrow.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.span_back { 
+	color:rgba(255, 255, 255, 1);
+	width:100%;
+	height:19px;
+	position:absolute;
+	left:30px;
+	top: 3px;
+	font-family:Inter;
+	text-align:left;
+	font-size:16px;
+	letter-spacing:0;
+}
+
+  
+@media (max-width: 576px) {
+
+	/* CSS rules for extra small devices */
+	
+	.div_back {
+		left: 50px;
+	  }
+	
+  
+}
+   
+@media (min-width: 577px) and (max-width: 767px) {
+	/* CSS rules for small devices */
+	
+
+	.div_back {
+		left: 50px;
+	  }
+	
+  
+  }
+  
+  
+@media (min-width: 768px) and (max-width: 991px) {
+	/* CSS rules for medium devices */
+
+	
+  
+  }
+  
+  

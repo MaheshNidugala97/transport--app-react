@@ -1,0 +1,48 @@
+.footers {
+	padding: 20px;
+	position: relative;
+	left: auto;
+	margin-top:1100px;
+	border-top:1px solid rgba(194.00000363588333, 17.00000088661909, 161.0000056028366, 1);
+	
+  }
+
+  .footer_contents{
+	position: relative;
+	text-align: right;
+  }
+  .footer_contents a{
+	text-decoration: none;
+	font-family:Inter;
+	color:rgba(255, 255, 255, 1);
+	font-family:Inter;
+	letter-spacing:0;
+	font-size: 14px;
+  }
+
+
+  @media (max-width: 576px) {
+
+	/* CSS rules for extra small devices */
+	
+	.footers {
+		margin-top: 1600px;
+	
+	  }
+}
+
+
+@media (min-width: 577px) and (max-width: 767px) {
+	/* CSS rules for small devices */
+        
+  .footers {
+	margin-top: 1600px;
+
+  }
+
+      
+  }
+
+
+
+

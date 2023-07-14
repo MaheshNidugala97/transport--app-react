@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
+
+.content-section {
+    position: relative;
+    height: 100vh;
+    background-color: #350058;
+    font-size: 18px;
+    margin-bottom: -20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.frame-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin-top: 10px;
+    font-size: 28px;
+    position: relative;
+    bottom: -37px;
+}
+
+.frame-col {
+    margin-top: 93px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.frame-column {
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+    text-align: center;
+}
+
+.cabserv {
+    margin-top: 49px;
+}
+
+.locTrans {
+    margin-top: 27px;
+}
+
+.txt {
+    font-size: 18px;
+    color: white;
+}
+
+.context {
+    margin-top: 98px
+}
+.content {
+    font-size: 16px;
+    font-family: poppins;
+    color: white;
+}
+@media  (min-width: 488px) and (max-width: 576px) {
+    .content-section {
+        height: 136vh;
+    }
+}
+
+@media  (min-width: 451px) and (max-width: 487px) {
+    .content-section {
+        height: 175vh;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 450px) {
+    .content-section {
+        height: 208vh;
+    }
+}
+  
+  @media (min-width: 577px) and (max-width: 767px) {
+    .col-md-4 {
+        width: 33.33%;
+        float: left;
+    }
+
+    .content-section {
+        font-size: 16px;
+    }
+
+    .content-section {
+        height: 100vh;
+    }
+   }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .content-section {
+        height: 125vh;
+    }
+   }
+  
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .content-section {
+    height: 100vh;
+}}
+  
+  @media (min-width: 1200px) {
+    .content-section {
+        height: 100vh;
+    }
+  }

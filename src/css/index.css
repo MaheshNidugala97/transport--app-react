@@ -1,0 +1,11 @@
+body {
+    background: rgba(62.00000010430813, 7.000000057742, 99.00000169873238, 1);
+    max-width: 100%;
+    overflow-x:hidden;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  

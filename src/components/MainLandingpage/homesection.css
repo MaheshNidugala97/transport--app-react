@@ -1,0 +1,204 @@
+.home-section {
+  position: relative;
+  height: 100vh;
+  margin-bottom: -20px; 
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../Assets/Frame 51.png');
+  background-size: cover;
+}
+
+.content-container {
+  position: absolute;
+  left: 77%;
+  top: 44%;
+  transform: translate(-50%, -50%);
+  width: 86%;
+  max-width: 565px;
+  height: 60%;
+  padding: 20px;
+  background: linear-gradient(0deg, #310159, #310159), #FFFFFF;
+  mix-blend-mode: normal;
+  box-shadow: 0px 0px 14px rgba(255, 255, 255, 0.8);
+  border-radius: 18px;
+}
+
+.qstn {
+  position: absolute;
+  width: 282px;
+  height: 60px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  transform: rotate(0.13deg);
+  left: 28px;
+  top: 32px;
+}
+
+.form-container {
+  width: 100%;
+  margin-top: 85px;
+  height: 80%;
+}
+
+.form-field {
+  flex: 0 0 40%;
+  margin-right: 2%;
+  margin-bottom: 10px;
+}
+.side-by-side-fields {
+  display: flex;
+  justify-content: space-between;
+}
+.datepicker-field {
+  flex: 0 0 48%;
+  margin-right: 2%;
+}
+.noofpersons-field {
+  flex: 1 0 auto;
+}
+
+.custom-datepicker {
+  padding-right: 60px;
+  background: #FFFFFF;
+  border-radius: 12px;
+  padding-bottom: 35px;
+}
+
+.locFrom,
+.locTo, .noOfPersons {
+  width: 100%;
+  max-width: 500px;
+  height: 59px;
+  background: #FFFFFF;
+  border-radius: 12px;
+}
+
+.locFrom,
+.locTo {
+  padding-left: 35px;
+  background: url('../Assets/loc.png') 10px center no-repeat;
+  background-color: #FFFFFF;
+}
+
+.search-button {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-radius: 12px;
+  height: 41px;
+  background: #C211A1;
+  color: white;
+  margin-top: 38px;
+}
+
+.search-button-field {
+  flex: 0 0 40%;
+  height:100%;
+}
+
+@media (max-width: 576px) {
+
+  /* CSS rules for extra small devices */
+  .content-container {
+    position: absolute;
+    left: 51%;
+    top: 41%;
+    width: 86%;
+    max-width: 450px;
+    height: 61%;
+  }
+  .custom-datepicker {
+    padding-right: 14px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding-bottom: 35px;
+}
+  /* .form-field {
+    margin-bottom: 10px;
+  } */
+
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+
+  /* CSS rules for small devices */
+  .content-container {
+    position: absolute;
+    left: 63%;
+    top: 41%;
+    width: 86%;
+    max-width: 450px;
+    height: 61%;
+
+  }
+  .form-field {
+    flex-basis: 100%;
+    margin-right: 0;
+  }
+
+  /* .form-field {
+    flex-basis: 100%;
+  } */
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  /* CSS rules for medium devices */
+  .content-container {
+    position: absolute;
+    left: 66%;
+    top: 41%;
+    width: 86%;
+    max-width: 450px;
+    height: 61%;
+  }
+
+  /* .form-field {
+    margin-bottom: 10px;
+  } */
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  /* CSS rules for large devices */
+  .content-container {
+    position: absolute;
+    left: 68%;
+    top: 44%;
+    width: 86%;
+    max-width: 450px;
+    height: 60%;
+  }
+
+  /* .form-field {
+    margin-bottom: 10px;
+  } */
+}
+
+@media (min-width: 1200px) {
+
+  /* CSS rules for extra large devices */
+  .content-container {
+    position: absolute;
+    left: 76%;
+    top: 44%;
+    width: 86%;
+    max-width: 450px;
+    height: 60%;
+  }
+
+  /* .form-field {
+    margin-bottom: 10px;
+  } */
+}

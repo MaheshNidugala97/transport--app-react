@@ -1,0 +1,194 @@
+.crums-panel {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	height: 10px;
+	position: relative;
+	left: 270px;
+	background-color: rgba(62.00000010430813, 7.000000057742, 99.00000169873238, 1);
+  }
+  .crums-body {
+	padding: 45px 80px 0;
+	flex: 1;
+  }
+
+
+  .progress-bar {
+	display: flex;
+	margin-bottom: 50px;
+	justify-content: space-between;
+  }
+  .step {
+	box-sizing: border-box;
+	position: relative;
+	z-index: 1;
+	display: block;
+	width: 25px;
+	height: 25px;
+	margin-bottom: 30px;
+	border: 4px solid #fff;
+	border-radius: 50%;
+	background-color: #efefef;
+  }
+  .step:after {
+	position: absolute;
+	z-index: -1;
+	top: 5px;
+	left: 22px;
+	width: 225px;
+	height: 6px;
+	content: '';
+	background-color: #efefef;
+  }
+  .step:before {
+	color: #2e2e2e;
+	position: absolute;
+	top: 40px;
+  }
+  .step:last-child:after {
+	content: none;
+  }
+   
+  .step.active {
+	background-color: #C211A1;
+  }
+  .step.active:after {
+	background-color: #C211A1;
+  }
+  .step.active:before {
+	color: #C211A1;
+  }
+  .step.active + .step {
+	background-color: #C211A1;
+  }
+  .step.active + .step:before {
+	color: #C211A1;
+  }
+   
+  .step:nth-child(1):before {
+	content: 'Select';
+	font-family:Inter;
+  }
+  .step:nth-child(2):before {
+	right: -40px;
+	content: 'Bookings';
+	font-family:Inter;
+  }
+  .step:nth-child(3):before {
+	right: -30px;
+	content: 'Payment';
+	color: #fff;
+	font-family:Inter;
+  }
+  .step:nth-child(4):before {
+	right: -50px;
+	content: 'Confirmation';
+	color: #fff;
+	font-family:Inter;
+  }
+
+
+  @media (max-width: 576px) {
+
+	/* CSS rules for extra small devices */
+	.crums-panel {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 10px;
+		left: 10px;
+        background-color: rgba(62.00000010430813, 7.000000057742, 99.00000169873238, 1);
+      }
+
+      .crums-body {
+        padding: 45px 10px 0;
+        flex: 1;
+      }
+
+      .step {
+        box-sizing: border-box;
+        position: relative;
+        z-index: 1;
+        display: block;
+        width: 23px;
+        height: 25px;
+        margin-bottom: 30px;
+        border: 4px solid #fff;
+        border-radius: 50%;
+        background-color: #efefef;
+      }
+  
+  
+}
+   
+@media (min-width: 577px) and (max-width: 767px) {
+	/* CSS rules for small devices */
+	.crums-panel {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        height: 10px;
+		left: 20px;
+        background-color: rgba(62.00000010430813, 7.000000057742, 99.00000169873238, 1);
+      }
+
+      .crums-body {
+        padding: 45px 10px 0;
+        flex: 1;
+      }
+
+      .step {
+        box-sizing: border-box;
+        position: relative;
+        z-index: 1;
+        display: block;
+        width: 23px;
+        height: 25px;
+        margin-bottom: 30px;
+        border: 4px solid #fff;
+        border-radius: 50%;
+        background-color: #efefef;
+      }
+	
+	
+	
+  
+  }
+  
+  
+@media (min-width: 768px) and (max-width: 991px) {
+	/* CSS rules for medium devices */
+	.crums-panel {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        height: 10px;
+		left: 100px;
+        background-color: rgba(62.00000010430813, 7.000000057742, 99.00000169873238, 1);
+      }
+
+      .crums-body {
+        padding: 45px 10px 0;
+        flex: 1;
+      }
+
+      .step {
+        box-sizing: border-box;
+        position: relative;
+        z-index: 1;
+        display: block;
+        width: 23px;
+        height: 25px;
+        margin-bottom: 30px;
+        border: 4px solid #fff;
+        border-radius: 50%;
+        background-color: #efefef;
+      }
+	
+  
+  }
+  

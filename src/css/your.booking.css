@@ -1,0 +1,39 @@
+.span_your_booking {  
+    color:rgba(255, 255, 255, 1);
+    width:129px;
+    height:24px;
+    font-family:Inter;
+    text-align:right;
+    font-size:20px;
+    letter-spacing:0;	
+    position: absolute;
+    margin-left: 970px;
+    margin-top: 150px;
+    font-weight: 700;
+}
+
+
+
+@media (max-width: 576px) {
+
+	/* CSS rules for extra small devices */
+	.span_your_booking {
+        margin-left: 35px;
+        margin-top: 1170px;
+        font-size: 17px;
+      }
+  
+}
+
+
+@media (min-width: 577px) and (max-width: 767px) {
+	/* CSS rules for small devices */
+	
+
+	.span_your_booking {
+        margin-left: 55px;
+        margin-top: 1170px;
+        font-size: 17px;
+      }
+
+  }
