@@ -15,7 +15,7 @@ const CardMethod = () => {
       </div>
 
       <div className="radio-input">
-        <input id="card" type="radio" name="payment" />
+        <input id="card" type="radio" name="payment" className="radio1" />
         Pay €49 with credit card
       </div>
     </label>

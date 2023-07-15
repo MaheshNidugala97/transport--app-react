@@ -365,12 +365,12 @@
 
 
 @media (max-width: 769px) {
-    .row{
+    .row-1{
         display: flex;
         width: 20rem;
         height: 7rem;
     }
-    .container{
+    .More-details-container{
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;

@@ -43,7 +43,7 @@ h1 {
   margin-bottom: 0;
 }
 
-h2 {
+.h2 {
   padding: 7px;
   border: 1px solid white;
   margin-left: -12px;
@@ -142,7 +142,7 @@ input[type="radio"]:checked::before {
     display: flex;
   }
 
-  h2 {
+  .h2 {
     padding: 7px;
     border: 1px solid white;
     margin-left: -12px;

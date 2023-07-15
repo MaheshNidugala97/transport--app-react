@@ -3,21 +3,24 @@ import ProgressBar from "./ProgressBar";
 import PaymentMethod from "./PaymentMethod";
 import InputFields from "./InputFields";
 import PanelFooter from "./PanelFooter";
+import "./payment.css";
 
 const CheckoutPanel = () => {
   return (
-    <div className="checkout-panel">
-      <div className="panel-body">
-        <h2 className="title">Checkout</h2>
+    <div className="bodycheckout">
+      <div className="checkout-panel">
+        <div className="panel-body">
+          <h2 className="title-checkout">Checkout</h2>
 
-        <ProgressBar />
+          <ProgressBar />
 
-        <PaymentMethod />
+          <PaymentMethod />
 
-        <InputFields />
+          <InputFields />
+        </div>
+
+        <PanelFooter />
       </div>
-
-      <PanelFooter />
     </div>
   );
 };
