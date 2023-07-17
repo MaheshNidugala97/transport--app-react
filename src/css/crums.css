@@ -36,7 +36,7 @@
 	z-index: -1;
 	top: 5px;
 	left: 22px;
-	width: 225px;
+	width: 162px;
 	height: 6px;
 	content: '';
 	background-color: #efefef;
@@ -67,22 +67,23 @@
   }
    
   .step:nth-child(1):before {
+    right: -10px;
 	content: 'Select';
 	font-family:Inter;
   }
   .step:nth-child(2):before {
-	right: -40px;
+	right: -20px;
 	content: 'Bookings';
 	font-family:Inter;
   }
   .step:nth-child(3):before {
-	right: -30px;
+	right: -20px;
 	content: 'Payment';
 	color: #fff;
 	font-family:Inter;
   }
   .step:nth-child(4):before {
-	right: -50px;
+	right: -30px;
 	content: 'Confirmation';
 	color: #fff;
 	font-family:Inter;
@@ -119,6 +120,16 @@
         border-radius: 50%;
         background-color: #efefef;
       }
+      .step:after {
+        position: absolute;
+        z-index: -1;
+        top: 5px;
+        left: 22px;
+        width: 100px;
+        height: 6px;
+        content: '';
+        background-color: #efefef;
+        }
   
   
 }
@@ -131,7 +142,7 @@
         flex-direction: column;
         width: 60%;
         height: 10px;
-		left: 20px;
+		  left: 100px;
         background-color: rgba(62.00000010430813, 7.000000057742, 99.00000169873238, 1);
       }
 
@@ -152,6 +163,16 @@
         border-radius: 50%;
         background-color: #efefef;
       }
+      .step:after {
+        position: absolute;
+        z-index: -1;
+        top: 5px;
+        left: 22px;
+        width: 80px;
+        height: 6px;
+        content: '';
+        background-color: #efefef;
+        }
 	
 	
 	
